@@ -12,3 +12,20 @@ $(window).load(function(){
 		}
 	});
 });
+
+$(document).ready(function(){
+	$('.nav .sub-nav').each(function () {
+		$self = $(this);
+
+		var totalWidth = 0;
+
+		$self.find('li').each(function (){
+			totalWidth += parseInt($(this).innerWidth(), 10);
+		});
+
+		$self.width(totalWidth);
+	});
+	$(".enjoy-rowenta .caption p.title").each(function () {
+        $(this).append('<span></span>');
+    });
+});
