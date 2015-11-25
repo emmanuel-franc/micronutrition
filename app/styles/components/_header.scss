@@ -1,0 +1,68 @@
+nav {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	top: 0;
+	background: $primary;
+
+	ul {
+		width: 70%;
+		height: 75px;
+		margin: 0;
+		padding: 0;
+		float: right;
+
+		li {
+			padding: 0 30px;
+			float: left;
+			text-align: center;
+			cursor: pointer;
+		
+			a {
+				display: table-cell;
+				vertical-align: middle;
+				height: 65px;
+				color: $text;
+			}
+
+			&:hover {
+				background: $secondary;
+				.sub-nav-bg {
+					display: block;
+				}
+			}
+		}
+	}
+	
+	.sup-nav {
+		height: 75px;
+		width: 100%;
+		max-width: 1280px;
+		margin: 0 auto;
+
+		> ul > li > a {
+			height: 75px;
+		} 
+	}
+	.sub-nav-bg {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 65px;
+		top: 75px;
+		left: 0;
+		background: $secondary;
+	}
+	.sub-nav {
+		height: 65px;
+		float: right;
+
+		li {
+			padding: 0 30px;
+
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

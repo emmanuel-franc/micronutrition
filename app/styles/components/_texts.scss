@@ -1,0 +1,39 @@
+p {
+	font-size: 16px;
+
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&.small {
+		font-size: 12px;
+	}
+}
+
+.section {
+	ul {
+		li {
+			margin-bottom: 30px;
+		}
+	}
+
+	p {
+		line-height: 22px;
+	}
+
+	&.section-2 {
+		text-align: center;
+
+		h2 {
+			margin: 20px 0;
+		}
+	}
+
+	&.section-14 {
+		h2 {
+			margin: 20px 0;
+		}
+	}
+}

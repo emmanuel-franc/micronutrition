@@ -1,0 +1,42 @@
+h1 {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+	font-size: 26px;
+	font-weight: 300;
+	font-style: italic;
+	color: $primary;
+	text-align: center;
+	line-height: 45px;
+
+	strong {
+		font-weight: 400;
+	}
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 60px;
+	font-size: 36px;
+
+	&:before,
+	&:after {
+		content: "";
+		position: absolute;
+		width: 60px;
+		height: 4px;
+		bottom: 10px;
+		background: $text;
+	}
+	&:before {
+		left: -100px;
+	}
+	&:after {
+		right: -100px;
+	}
+}
