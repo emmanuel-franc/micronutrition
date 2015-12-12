@@ -1,6 +1,10 @@
 body {
 	color: $text;
 	font-family: 'Open Sans', sans-serif;
+
+	&.no-scroll {
+		overflow: hidden;
+	}
 }
 
 .max-w {
@@ -30,13 +34,10 @@ body {
 	}
 
 	.image {
+		display: none;
 		position: absolute;
 		top: 0;
 	}
-}
-
-.section-1 {
-	margin-top: 75px;
 }
 
 .section-4 {
@@ -62,7 +63,7 @@ body {
 	}
 }
 
-.section-10 {
+.section-11 {
 	.image {
 		top: 50%;
 		right: 50px;
@@ -71,7 +72,7 @@ body {
 	}
 }
 
-.section-12 {
+.section-13 {
 	.image {
 		left: 0;
 	}
