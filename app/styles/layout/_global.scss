@@ -81,3 +81,22 @@ body {
 iframe {
 	width: 100%;
 }
+
+.contact {
+	p {
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		margin: 20px 0;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	
+	ul {
+		li {
+			margin-bottom: 10px;
+		}
+	}
+}
