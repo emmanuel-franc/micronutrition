@@ -78,6 +78,16 @@ nav {
 		margin-left: -15px;
 		visibility: hidden;
 
+		&.mrg {
+			margin-left: -100px;
+		}
+
+		@media screen and (max-width: 1600px) {
+			&.mrg {
+				margin-left: -160px;
+			}
+		}
+
 		ul {
 			display: table;
 		}
@@ -141,6 +151,9 @@ nav {
 			float: none;
 
 			a {
+				display: block;
+				width: 100%;
+				line-height: 75px;
 				font-size: 14px;
 				text-align: left;
 			}

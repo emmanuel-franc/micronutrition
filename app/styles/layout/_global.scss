@@ -45,36 +45,71 @@ body {
 	padding-bottom: 100px;
 }
 
-.section-5 {
+.alimentation {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	.image {
-		top: -30px;
+		top: initial;
 		right: 0;
+		bottom: 0;
 	}
 }
 
-.section-7 {
+.sportif {
 	.image {
 		top: 50%;
 		left: 50px;
     	-ms-transform: translateY(-50%);
     	transform: translateY(-50%);
+
+    	img {
+    		height: 400px;
+    	}
 	}
 }
 
-.section-11 {
+.sante {
 	.image {
 		top: 50%;
 		right: 50px;
     	-ms-transform: translateY(-50%);
     	transform: translateY(-50%);
+
+    	img {
+    		height: 400px;
+    	}
 	}
 }
 
-.section-13 {
+.trouble {
 	.image {
+		top: 50%;
+		right: 200px;
+		transform: translateY(-50%);
+
+		img {
+			height: 325px;
+		}
+	}
+}
+
+.arthrose {
+	.image {
+		top: 10px;
 		left: 0;
+
+		img {
+			height: 500px;
+		}
+	}
+}
+
+.cardiologie {
+	.image {
+		top: 50%;
+		left: 100px;
+    	-ms-transform: translateY(-50%);
+    	transform: translateY(-50%);
 	}
 }
 

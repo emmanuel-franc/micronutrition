@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1900px) {
 	.section {
-		&.section-11 {
+		&.sante {
 			.image {
 				right: 0;
 			}
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1600px) {
 	.section {
-		&.section-5 {
+		&.alimentation {
 			.image {
 				top: initial;
 				bottom: 0;
@@ -29,7 +29,7 @@
 			}
 		}
 
-		&.section-7 {
+		&.sportif {
 			.image {
 				img {
 					height: 275px;
@@ -37,13 +37,19 @@
 			}
 		}
 
-		&.section-11 {
+		&.sante {
 			.image {
 				right: 0;
 
 				img {
-					height: 265px;
+					height: 300px;
 				}
+			}
+		}
+
+		&.trouble {
+			.image {
+				right: 50px;
 			}
 		}
 	}
@@ -51,7 +57,7 @@
 
 @media screen and (max-width: 1280px) {
 	.section {
-		&.section-5 {
+		&.alimentation {
 			.image {
 				top: initial;
 				bottom: 0;
@@ -62,7 +68,7 @@
 			}
 		}
 
-		&.section-7 {
+		&.sportif {
 			.image {
 				img {
 					height: 175px;
@@ -70,13 +76,25 @@
 			}
 		}
 
-		&.section-11 {
+		&.sante {
 			.image {
 				right: 0;
 
 				img {
-					height: 190px;
+					height: 220px;
 				}
+			}
+		}
+
+		&.trouble {
+			.image {
+				right: 0px;
+			}
+		}
+
+		&.cardiologie {
+			.image {
+				left: 0;
 			}
 		}
 	}
