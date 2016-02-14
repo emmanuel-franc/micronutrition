@@ -107,9 +107,25 @@ body {
 .cardiologie {
 	.image {
 		top: 50%;
-		left: 100px;
+		left: 20px;
     	-ms-transform: translateY(-50%);
     	transform: translateY(-50%);
+
+    	img {
+    		height: 400px;
+    	}
+	}
+}
+
+.diabete {
+	.image {
+		top: initial;
+		right: 60px;
+		bottom: 0;
+
+		img {
+			height: 500px;
+		}
 	}
 }
 

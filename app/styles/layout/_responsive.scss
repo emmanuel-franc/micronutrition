@@ -95,6 +95,19 @@
 		&.cardiologie {
 			.image {
 				left: 0;
+
+				img {
+					height: 285px;
+				}
+			}
+		}
+
+		&.diabete {
+			.image {
+				bottom: 30px;
+				img {
+					height: 350px;
+				}
 			}
 		}
 	}
@@ -119,6 +132,16 @@
 			left: initial;
 			transform: translate(0, 0);
 			-ms-transform: translate(0, 0);
+		}
+	}
+
+	.section {
+		&.diabete {
+			.image {
+				img {
+					height: 300px;
+				}
+			}
 		}
 	}
 }
