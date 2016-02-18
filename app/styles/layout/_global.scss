@@ -19,8 +19,7 @@ body {
 	padding-bottom: 70px;
 	background: $secondary;
 
-	&:nth-child(odd),
-	&.section-2 {
+	&.primary {
 		background: $primary;
 	}
 
