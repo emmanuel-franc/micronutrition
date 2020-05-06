@@ -28,7 +28,6 @@ gulp.task('html', ['styles'], function () {
 
   return gulp.src('app/*.html')
     .pipe(assets)
-    .pipe(ignore.exclude([ "**/*.map" ]))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.csso()))
     .pipe(assets.restore())
